@@ -1,1 +1,33 @@
-/* Add CSS Styling */
+/* Add CSS Styling
+
+**All odd numbered elements**: a light red/pink background,
+and a list of fonts containing `Verdana` and `DejaVu Sans` with
+`sans-serif` as a fallback
+
+**The second element**: blue text and a font size of 36px
+
+**The third element**: in addition to the styles for all odd numbered elements,
+add a font size of 24px
+
+**The fourth element**: a light green background, a font size of 24px,
+and bold
+*/
+
+.odd {
+    background-color: #ffbbbb;
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+}
+
+#second {
+    color: #48bfff;
+    font-size: 36px;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: #67ff88;
+    font-weight: bold;
+}
